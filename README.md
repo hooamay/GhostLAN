@@ -66,10 +66,4 @@ GhostLAN Terminal is an excellent tool for **IT instructors**, **networking clas
 
 ## 🚧 Disclaimer
 
-This project is meant for **educational and ethical use only**. Misuse in academic environments (e.g., for cheating) is strongly discouraged. Be responsible.
-
----
-
-## 📫 Contact
-
-Developed by **huwamee**
+This tool is meant for **educational and ethical use only**. Misuse in academic environments (e.g., for cheating) is strongly discouraged. Be responsible.
