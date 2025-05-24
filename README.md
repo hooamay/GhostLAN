@@ -66,4 +66,4 @@ This project is meant for **educational and ethical use only**. Misuse in academ
 
 ## 📫 Contact
 
-Created by **huwamee**
+Developed by **huwamee**
