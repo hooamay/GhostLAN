@@ -92,4 +92,4 @@ arising from, out of, or in connection with the software or the use or other dea
 
 ---
 
-## 🧑‍💻Developed by **huwamee**
+## Developed by **huwamee**
