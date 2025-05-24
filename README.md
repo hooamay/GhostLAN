@@ -1,4 +1,4 @@
-![GhostLAN Logo](skull.png)
+<img src="skull.png" alt="GhostLAN Logo" width="80" />
 
 # GhostLAN Terminal
 
