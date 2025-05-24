@@ -1,10 +1,14 @@
-<img src="skull.png" alt="GhostLAN Logo" width="80" />
+<p align="center">
+  <img src="skull.png" alt="GhostLAN Logo" width="80" />
+</p>
 
-# GhostLAN Terminal
+<h1 align="center">GhostLAN Terminal</h1>
 
-**GhostLAN Terminal** is a terminal-style web interface developed by **huwamee**, built for secure, peer-to-peer communication within a local network. Designed to operate on `localhost` via XAMPP, it enables private conversations without internet access, ensuring untraceable and isolated messaging between devices on the same LAN.
+<p align="center">
+  A terminal-style web interface developed by <strong>huwamee</strong>, built for secure, peer-to-peer communication within a local network without internet access.
+</p>
 
----
+<hr>
 
 ## 🔐 Key Features
 
