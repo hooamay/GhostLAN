@@ -16,7 +16,7 @@
   Operates strictly within the same local network — perfect for offline environments.
 
 - **Internet-Free**  
-  No internet required. Runs on XAMPP using localhost or local IP addresses.
+  No internet required. Runs on XAMPP or any local server using localhost or local IP addresses.
 
 - **Untraceable Communication**  
   No third-party servers, no external logs — your messages stay local and private.
@@ -25,7 +25,19 @@
   Retro terminal aesthetic, inspired by classic hacking tools and cyberpunk interfaces.
 
 - **Cross-Device via Local IP**  
-  Access GhostLAN Terminal from multiple devices using local IP (e.g., `192.168.x.x/ghostlan`).
+  Access GhostLAN Terminal from multiple devices using a LAN IP (e.g., `192.168.x.x/ghostlan`).
+
+- **File & Image Transfer**  
+  Supports sending any file type, including real-time image preview in chat.
+
+- **Mobile-Friendly**  
+  Works seamlessly on mobile browsers for chat and file sharing.
+
+- **No Central Server Required**  
+  Works peer-to-peer using shared LAN and browser access only.
+
+- **Login System with Basic Hash Checking**  
+  Lightweight user authentication layered into the system.
 
 ---
 
@@ -34,7 +46,8 @@
 ### Requirements
 - [XAMPP](https://www.apachefriends.org/index.html) or any local Apache server  
 - PHP (included in XAMPP)  
-- Shared LAN or router connection  
+- Shared LAN or WiFi router connection  
+- Any browser (mobile or desktop)
 
 ### Installation
 1. Download or clone this repository.  
@@ -43,6 +56,8 @@
 4. Access the interface on your browser:  
    - `http://localhost/ghostlan` (same device)  
    - `http://192.168.x.x/ghostlan` (another device on LAN)
+
+> Tip: You can run this on an Android phone using apps like Termux + PHP server, or a local server app that supports PHP+Apache.
 
 ---
 
@@ -66,7 +81,7 @@ GhostLAN Terminal is an excellent tool for **IT instructors**, **networking clas
 
 ## 🚧 Disclaimer
 
-This tool is meant for **educational and ethical use only**. Misuse in academic environments (e.g., for cheating) is strongly discouraged. Be responsible.
+This tool is meant for **educational and ethical use only**. Misuse in academic environments (e.g., for cheating or bypassing school policies) is strongly discouraged. Be responsible and use it with integrity.
 
 ---
 
