@@ -90,8 +90,9 @@ function getCombinedChatAndUploads($chatlog, $uploadsDir, $uploadsMeta) {
             $timeDisplay = $time ? '[' . date('H:i', strtotime($time)) . ']' : '';
 
             $isImage = preg_match('/\.(png|jpe?g|gif)$/i', $file);
-            // Always display as filename link, not as image preview
-            $fileDisplay = "<a href='$url' target='_blank' style='font-family:inherit;color:#007700;text-decoration:underline;font-weight:bold;'>$safeFile</a>";
+            $fileDisplay = $isImage
+                ? "<a href='$url' target='_blank'><img src='$url' alt='$safeFile' style='max-width:120px;max-height:80px;vertical-align:middle;border:1px solid #ccc;margin-right:8px;'></a>"
+                : "<a href='$url' target='_blank' style='font-family:inherit;color:#007700;text-decoration:underline;font-weight:bold;'>$safeFile</a>";
 
             $html .= "<div class='message-line'>
                         <span style='color:#000;font-family:inherit;font-weight:bold;'>$uploader </span>
